@@ -845,6 +845,18 @@ footer div i {
         height: 118px;
     }
 /**-------PRODUCTOS-------*/
+.gridPagos .parrafo1{    
+    text-align: center;
+    font-size: 15px;
+}
+.gridPagos .parrafo2{    
+    text-align: center;
+    font-size: 15px;
+}
+.gridPagos .parrafo3{    
+    text-align: center;
+    font-size: 15px;
+}
 /**------CONTACTO--------*/
 .contactame .contactoGeneral section div div img {
     width: 290px;
