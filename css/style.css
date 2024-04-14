@@ -305,33 +305,34 @@ footer div i {
     flex-direction: column;
     border: none;
 }
+.serviciosGeneral section div .tarjeta{
+    margin: auto;
+}
 .serviciosGeneral section div div h2 {
     color: white;
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
 
 .serviciosGeneral section div div p {
     color: white;
 }
-
+.serviciosGeneral section div .imglink{
+    margin: auto;
+}
 .serviciosGeneral section div div img {
     width: 220px;
     height: 150px;
     margin: auto;
 }
-.serviciosGeneral section div .tarjeta{
-    margin: auto;
-}
-.serviciosGeneral section div .imglink{
-    margin: auto;
-}
-
 .serviciosGeneral section div div a {
     text-decoration: none;
     color: white;
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
-
-
 .serviciosGeneral section .design2 {
     display: flex;
     flex-direction: row-reverse;
@@ -366,9 +367,12 @@ footer div i {
 .productos section {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
     flex-direction: row;
     background-color: rgba(2, 2, 2, 0.637);
     border: 1px white solid;
+    width: 96%;
 
 }
 
@@ -397,37 +401,68 @@ footer div i {
     height: 230px;
 }
 
-/**-----------------------PAGOS-----------------*/
-/* .mediodepago{
-    width: 100%;
-    color: aliceblue;
-    background-color: black;
-    display: inline;
+/**-----------------GRID PAGOS-----------------*/
+.gridPagos{
+    background-color: rgba(2, 2, 2, 0.808);
+    width: auto; 
+    margin: 0 auto;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    border-radius: 20px;
 }
-
-.transferencia{
+.gridPagos .parrafo1{    
+    color: rgb(255, 255, 255);
+    font-size: 18px;
     display: flex;
+    justify-content: center;
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
-.transferencia img{
-    height: 30px;
-    width: 50px;
-    margin-left: 20px;
-    padding: 5px
-}
-
-.tarjetas{
+.gridPagos .tarjetas{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
-
-
-.tarjetas img{
-    height: 30px;
-    width: 50px;
-    margin-left: 20px;
-    padding: 5px
-} */
-
-
+.gridPagos .tarjetas img{
+    width: 60px;
+    height: 40px;
+    border-radius: 7px;
+    margin: 2px;
+    margin-bottom: 10px;
+    
+}
+.gridPagos .parrafo2{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.gridPagos .envio{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.gridPagos .envio div img{
+    width: 60px;
+    height: 40px;
+    border-radius: 7px;
+    margin: 2px;
+}
 
 /*?---------------CONTACTO------------------*/
 /**-----------Formulario-------------*/
