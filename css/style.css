@@ -12,13 +12,13 @@ header {
     align-items: center;
 }
 
-header a {
+header nav div a {
     width: auto;
     height: auto;
 }
 
 /**-------------NAV BAR-----------------*/
-header nav div img {
+header nav div a img {
     height: 40px;
     width: 40px;
 }
@@ -92,9 +92,15 @@ header nav div ul li .botonNav:hover {
     font-size: 26px;
     margin-left: 8px;
     margin-right: 8px;
+} 
+
+.secundaria {
+    display: flex;
+    background-image: url(../img/back.jpg);
+    /* background-color: rgb(22, 22, 22); */
 }
 
-.justificacion {
+.secundaria .justificacion {
     background-color: rgba(2, 2, 2, 0.637);
     display: flex;
     justify-content: space-around;
@@ -106,7 +112,7 @@ header nav div ul li .botonNav:hover {
     padding-bottom: 50px;
 }
 
-.justificacion h2 {
+.secundaria .justificacion h2 {
     font-size: 23px;
     color: white;
     box-shadow: 0px 0px 5px 6px rgba(93, 118, 207, 0.52);
@@ -116,34 +122,14 @@ header nav div ul li .botonNav:hover {
     margin: 6px;
     border: 1px rgba(24, 2, 146, 0.904) solid;
 }
-
-.secundaria {
-    display: flex;
-    background-image: url(../img/back.jpg);
-    /* background-color: rgb(22, 22, 22); */
-}
-
-.galeria {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgba(2, 2, 2, 0.637);
-    padding: 7px;
-}
-
-.galeria img {
-    margin-bottom: 10px;
-    border: 1px black solid;
-}
-
-.linkServicios {
+.secundaria .justificacion .linkServicios {
     margin-top: 15px;
     display: flex;
     justify-content: center;
     background-color: rgba(2, 2, 2, 0.637);
 }
 
-.linkServicios a {
+.secundaria .justificacion .linkServicios a {
     text-decoration: none;
     color: rgb(0, 17, 29);
     border: 2px rgb(5, 5, 5) solid;
@@ -155,6 +141,20 @@ header nav div ul li .botonNav:hover {
     padding-right: 10px;
 }
 
+.secundaria .galeria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(2, 2, 2, 0.637);
+    padding: 7px;
+}
+
+.secundaria .galeria img {
+    margin-bottom: 10px;
+    border: 1px black solid;
+}
+
+
 /**---------------FOOTER------------------*/
 footer {
     background-color: rgb(0, 0, 0);
@@ -164,7 +164,7 @@ footer {
     width: 100%;
 }
 
-footer img {
+footer a img {
     height: 40px;
     width: 40px;
     margin: 6px;
@@ -321,12 +321,12 @@ footer div i {
 .serviciosGeneral section div .imglink{
     margin: auto;
 }
-.serviciosGeneral section div div img {
+.serviciosGeneral section div .imglink img {
     width: 220px;
     height: 150px;
     margin: auto;
 }
-.serviciosGeneral section div div a {
+.serviciosGeneral section div .imglink a {
     text-decoration: none;
     color: white;
     display: flex;
@@ -383,8 +383,6 @@ footer div i {
     justify-content: center;
     margin: 15px;
     border: 1px solid rgb(1, 6, 53);
-
-
 }
 
 /*--------Cada Tarjeta--------*/
@@ -462,6 +460,16 @@ footer div i {
     height: 40px;
     border-radius: 7px;
     margin: 2px;
+}
+
+.gridPagos .parrafo2{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 /*?---------------CONTACTO------------------*/
@@ -576,6 +584,16 @@ footer div i {
 /*!--------MEDIA QUERI--------*/
 
 /*----------------- 1079 -----------------*/
+@media screen and (max-width: 2300px){
+/**-----ABOUT ME----------*/
+    .mainAbout section div div ul{
+        width: 75%;
+        align-items: center;
+    }
+    .mainAbout section div div ul li{
+        margin: 10px;
+    }
+}
 @media screen and (max-width: 1079px) {
 /**-------INDEX-----------*/
 /**-----ABOUT ME----------*/
@@ -608,32 +626,33 @@ footer div i {
         flex-direction: column;
     }
 
-    .justificacion {
+    .secundaria .justificacion {
         padding-left: 40px;
         padding-right: 40px;
         padding-top: 50px;
         padding-bottom: 30px;
     }
 
-    .galeria {
+    .secundaria .justificacion .linkServicios {
+        margin-top: 10px;
+    }
+
+    .secundaria .justificacion .linkServicios a {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+
+    .secundaria .galeria {
         display: flex;
         justify-content: center;
         flex-direction: row;
     }
 
-    .galeria img {
+    .secundaria .galeria img {
         display: flex;
         width: 25%;
         margin: auto;
-    }
-
-    .linkServicios {
-        margin-top: 10px;
-    }
-
-    .linkServicios a {
-        font-size: 20px;
-        font-weight: 600;
     }
 
     footer ul li a {
@@ -708,7 +727,7 @@ footer div i {
         font-size: 16px;
     }
 
-    .linkServicios a {
+    .secundaria .justificacion .linkServicios a {
         font-size: 18px;
     }
 
@@ -763,15 +782,15 @@ footer div i {
 @media screen and (max-width: 630px) {
 
 /**-------INDEX-----------*/
-    .justificacion {
+.secundaria .justificacion {
         padding-top: 20px;
         padding-left: 10px;
         padding-right: 10px;
     }
 
-    .justificacion h2 {
+.secundaria .justificacion .linkServicios a {
         padding: 12px;
-        font-size: 22px;
+        font-size: 18px;
     }
 
 /**-----ABOUT ME----------*/
@@ -845,27 +864,27 @@ footer div i {
         height: 118px;
     }
 /**-------PRODUCTOS-------*/
-.gridPagos .parrafo1{    
-    text-align: center;
-    font-size: 15px;
-}
-.gridPagos .parrafo2{    
-    text-align: center;
-    font-size: 15px;
-}
-.gridPagos .parrafo3{    
-    text-align: center;
-    font-size: 15px;
+    .gridPagos .parrafo1{    
+        text-align: center;
+        font-size: 15px;
+    }
+    .gridPagos .parrafo2{    
+        text-align: center;
+        font-size: 15px;
+    }
+    .gridPagos .parrafo3{    
+        text-align: center;
+        font-size: 15px;
 }
 /**------CONTACTO--------*/
-.contactame .contactoGeneral section div div img {
-    width: 290px;
-    height: 190px;
-    }
+    .contactame .contactoGeneral section div div img {
+        width: 290px;
+        height: 190px;
+        }
 
-.contactame .contactoGeneral section div div iFrame {
-    width: 290px;
-    height: 190px;
+    .contactame .contactoGeneral section div div iFrame {
+        width: 290px;
+        height: 190px;
 
     }
 }
@@ -887,10 +906,16 @@ footer div i {
         font-weight: 700;
     }
 
-    .justificacion h2 {
-        font-size: 20px;
+.secundaria .justificacion .linkServicios a {
+        font-size: 11px;
     }
 
+    .secundaria .galeria {
+        display: none;
+    }
+
+    
+/**-----ABOUT ME----------*/
     .mainAbout section div div ul li {
         font-size: 14px;
     }
@@ -899,15 +924,6 @@ footer div i {
         margin: 0;
         padding: 0;
     }
-
-    .galeria {
-        display: none;
-    }
-
-    .linkServicios a {
-        font-size: 11px;
-    }
-/**-----ABOUT ME----------*/
 /**-------SERVICIOS-------*/
 /**-------PRODUCTOS-------*/
 /**------CONTACTO--------*/

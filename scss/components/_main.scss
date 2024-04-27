@@ -1,0 +1,88 @@
+.hero{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+    width: auto;
+    @include flex(flex, center, center, column, nowrap)
+
+    img{
+        margin-top: 25px;
+        display: flex;
+    }
+    h1{
+        color: aliceblue;
+        font-size: nth($fsize,4);
+        margin: 4px;
+        padding: 4px;
+    }
+    a{
+        text-decoration: none;
+    }
+        h2{
+            text-align: center;
+            align-items: center;
+            font-size: nth($fsize,3);
+            padding: 6px;
+            padding-left: 16px;
+            padding-right: 16px;
+            border-radius: 20px;
+            @extend %btn-general;
+                &:hover{
+                    @extend %btn-hover
+                    }
+        }
+}
+
+.secundaria{
+    display: flex;
+    background-image: url(../img/back.jpg);
+    .justificacion{
+        background-color: $bg-color;
+        padding-left: 70px;
+        padding-right: 10px;
+        padding-top: 50px;
+        padding-bottom: 50px; 
+        @include flex (flex, space-around, center, column, nowrap);
+        h2{
+            font-size: nth($fsize,4);
+            color: white;
+            box-shadow: 0px 0px 5px 6px rgba(93, 118, 207, 0.52);
+            -webkit-box-shadow: 0px 0px 5px 6px rgba(93, 118, 207, 0.52);
+            -moz-box-shadow: 0px 0px 5px 6px rgba(93, 118, 207, 0.52);
+            padding: 24px;
+            margin: 6px;
+            border: 1px rgba(24, 2, 146, 0.904) solid;
+        }
+        .linkServicios{
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            background-color: $bg-color;
+            a{
+                text-decoration: none;
+                font-size: nth($fsize,4);
+                font-weight: 600;
+                padding: 3px;
+                padding-left: 10px;
+                padding-right: 10px;
+                @extend %btn-general;
+                    &:hover{
+                        @extend %btn-hover
+                    }
+                }
+            }
+    }   
+    .galeria{
+        background-color: $bg-color;
+        padding: 7px;
+        @include flex (flex, center, center, column, nowrap);
+        img{
+            margin-bottom: 10px;
+            border: 1px black solid;
+        }
+    }
+
+}
+

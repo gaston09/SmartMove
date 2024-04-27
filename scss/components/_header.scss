@@ -1,0 +1,32 @@
+header{
+    background-color: $color-secundario;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    nav{
+        div{
+            a{
+                width: auto;
+                height: auto;
+                img{
+                    height: 40px;
+                    width: 40px;
+                }
+            }
+            ul{
+                li{
+                    a{
+
+                    }
+                }
+            }
+            div{
+                a{
+                    i{
+
+                    }
+                }
+            }
+        }
+    }
+}

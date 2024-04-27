@@ -1,0 +1,370 @@
+/*----------------- 1079 -----------------*/
+@media screen and (max-width: 2300px){
+    /**-----ABOUT ME----------*/
+        .mainAbout section div div ul{
+            width: 75%;
+            align-items: center;
+        }
+        .mainAbout section div div ul li{
+            margin: 10px;
+        }
+    }
+    @media screen and (max-width: 1079px) {
+    /**-------INDEX-----------*/
+    /**-----ABOUT ME----------*/
+    /**-------SERVICIOS-------*/
+    /**-------PRODUCTOS-------*/
+    /**------CONTACTO--------*/
+        .contactame .contactoGeneral section .heed div{
+            margin-top: 32px
+        }
+    }
+    
+    /*-------------------- 982 ---------------------*/
+    @media screen and (max-width: 982px) {
+    
+    /**-------INDEX-----------*/
+        .navbar-nav {
+            align-items: flex-end
+        }
+    
+        .hero {
+            height: auto;
+            width: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+        .secundaria {
+            flex-direction: column;
+        }
+    
+        .secundaria .justificacion {
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 50px;
+            padding-bottom: 30px;
+        }
+    
+        .secundaria .justificacion .linkServicios {
+            margin-top: 10px;
+        }
+    
+        .secundaria .justificacion .linkServicios a {
+            font-size: 20px;
+            font-weight: 600;
+        }
+    
+    
+        .secundaria .galeria {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+    
+        .secundaria .galeria img {
+            display: flex;
+            width: 25%;
+            margin: auto;
+        }
+    
+        footer ul li a {
+            font-size: 14px;
+        }
+    
+        footer div i {
+            font-size: 22px;
+            margin: 6px;
+        }
+    
+    /**-----ABOUT ME----------*/
+    /**-------SERVICIOS-------*/
+        .serviciosGeneral section h1{
+            padding-left: 25px;
+            padding-right: 25px;
+            text-align: center;
+        }
+        .serviciosGeneral section div div h2{
+            display: flex;
+            margin: auto;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+        .serviciosGeneral section div div p {
+            font-size: 14px;
+        }
+        
+        .serviciosGeneral section div div img {
+            width: 200px;
+            height: 130px;
+        }
+        .serviciosGeneral section div div a {
+            font-size: 14px;
+        }
+    
+        
+    /**-------PRODUCTOS-------*/
+    /**------CONTACTO--------*/
+        .contactame .contactoGeneral section .heed div{
+            margin-top: 0px;    
+        }
+    
+        .contactame .contactoGeneral {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    
+    /*-------------------- 748 -----------------------*/
+    @media screen and (max-width: 748px) {
+    
+        /**-------INDEX-----------*/
+        .hero img {
+            width: 60%;
+        }
+    
+        .lista li a {
+            color: rgb(253, 254, 255);
+            font-size: 14px;
+            margin-left: 5px;
+        }
+    
+        .hero h1 {
+            text-align: center;
+            font-size: 25px;
+        }
+    
+        .hero a {
+            font-size: 16px;
+        }
+    
+        .secundaria .justificacion .linkServicios a {
+            font-size: 18px;
+        }
+    
+        footer img {
+            height: 35px;
+            width: 35px;
+        }
+    
+        footer ul {
+            flex-direction: row;
+            text-decoration: underline 1px rgb(46, 49, 211) solid;
+        }
+    
+        footer ul a {
+            margin-right: 10px;
+        }
+    
+    /**-----ABOUT ME----------*/
+    /**-------SERVICIOS-------*/
+        
+        .serviciosGeneral section div{
+            margin: 10px
+        }
+        .serviciosGeneral section .tarjeta{
+            flex-direction: column;
+        }
+        .serviciosGeneral section div .imglink{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+        .serviciosGeneral section div .imglink img{
+            margin: auto;
+            margin-left: 14px;
+        }
+        .serviciosGeneral section div .imglink a{
+            margin: auto;
+            margin-left: 14px;
+        }
+    /**-------PRODUCTOS-------*/
+    /**------CONTACTO--------*/
+        .contactame section form div textarea {
+            width: 90%;
+            align-items: center;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        
+    }
+    
+    /*--------------------630----------------------*/
+    @media screen and (max-width: 630px) {
+    
+    /**-------INDEX-----------*/
+    .secundaria .justificacion {
+            padding-top: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    
+    .secundaria .justificacion .linkServicios a {
+            padding: 12px;
+            font-size: 18px;
+        }
+    
+    /**-----ABOUT ME----------*/
+    /**-------SERVICIOS-------*/
+        .serviciosGeneral section div div p {
+            font-size: 14px;
+        }
+    
+        .serviciosGeneral section div .imglink img {
+            width: 190px;
+            height: 122px;
+    }
+    /**-------PRODUCTOS-------*/
+    /**------CONTACTO--------*/
+        .contactame .contactoGeneral section {
+            border: 1px rgb(12, 12, 14) solid;
+            background-color: rgba(2, 2, 2, 0.637);
+            width: 90%;
+        }
+        .contactame .contactoGeneral section div h3 {
+            text-align: center;
+        }
+    }
+    
+    /*------------------ 580 ------------------*/
+    @media screen and (max-width: 560px) {
+    
+    /**-------INDEX-----------*/
+        footer img {
+            width: 30px;
+            height: 30px;
+            margin: 5px;
+        }
+    
+        footer ul a {
+            font-size: 12px;
+    
+        }
+    
+        footer div i {
+            font-size: 19px;
+        }
+    /**-----ABOUT ME----------*/
+        .mainAbout section div div ul li {
+            font-size: 14px;
+        }
+    
+        .mainAbout section div img {
+            width: 180px;
+            height: 180px;
+        }
+    
+        .mainAbout section div h1 {
+            margin: 5px;
+            margin-top: 16px;
+            padding: 6px;
+        }
+    
+        .mainAbout section div h2 {
+            margin: 5px;
+            padding: 5px;
+        }
+    
+    /**-------SERVICIOS-------*/
+        .serviciosGeneral section div div p {
+            font-size: 13px;
+        }
+    
+        .serviciosGeneral section div .imglink img {
+            width: 180px;
+            height: 118px;
+        }
+    /**-------PRODUCTOS-------*/
+        .gridPagos .parrafo1{    
+            text-align: center;
+            font-size: 15px;
+        }
+        .gridPagos .parrafo2{    
+            text-align: center;
+            font-size: 15px;
+        }
+        .gridPagos .parrafo3{    
+            text-align: center;
+            font-size: 15px;
+    }
+    /**------CONTACTO--------*/
+        .contactame .contactoGeneral section div div img {
+            width: 290px;
+            height: 190px;
+            }
+    
+        .contactame .contactoGeneral section div div iFrame {
+            width: 290px;
+            height: 190px;
+    
+        }
+    }
+    
+    /*----------------- 450 ------------------*/
+    @media screen and (max-width: 450px) {
+    
+    /**-------INDEX-----------*/
+        .hero img {
+            width: 60%;
+        }
+    
+        .hero h1 {
+            font-size: 20px;
+        }
+    
+        .hero h2 {
+            font-size: 14px;
+            font-weight: 700;
+        }
+    
+    .secundaria .justificacion .linkServicios a {
+            font-size: 11px;
+        }
+    
+        .secundaria .galeria {
+            display: none;
+        }
+    
+        
+    /**-----ABOUT ME----------*/
+        .mainAbout section div div ul li {
+            font-size: 14px;
+        }
+    
+        .mainAbout section div div {
+            margin: 0;
+            padding: 0;
+        }
+    /**-------SERVICIOS-------*/
+    /**-------PRODUCTOS-------*/
+    /**------CONTACTO--------*/
+    .contactame section form .select{
+        display:flex ;
+        flex-direction: column;
+        margin: 5px;
+        }
+    .contactame h2{
+        text-align: center;
+        }
+    .contactame .contactoGeneral section {
+        
+        width: auto;
+        }
+    
+    .contactame .contactoGeneral section div div img {
+        width: 260px;
+        height: 160px;
+        }
+    
+    .contactame .contactoGeneral section div div iFrame {
+        width: 260px;
+        height: 160px;
+        }
+    .contactame section form div.botonForm input {
+            width: 140px;
+        }
+    }

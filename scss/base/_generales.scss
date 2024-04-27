@@ -1,0 +1,64 @@
+/*? ------------BODY--------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+/*Clases de bootstrap que nosotros creamos para modificarlo*/
+
+header nav div .botonHamburguesa {
+    background-color: rgba(188, 192, 192, 0.699);
+    border: white 1px solid;
+    height: 40px;
+    width: 55px;
+    &:hover{
+        background-color: rgba(64, 64, 219, 0.692);}
+    }
+
+header nav div ul li .botonNav {
+    width: 110px;
+    border: white 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    margin: 2px;
+    color: white;
+    font-weight: 200px;
+    &:hover {
+        background-color: rgba(64, 64, 219, 0.692);
+        font-weight: 400;
+        color: white;
+    }
+}
+
+/*Variables*/
+$bg-color: rgba(2, 2, 2, 0.637);
+$color-secundario:black;
+$color-h2: rgb(7, 58, 116);
+
+
+/*Listas*/
+$fsize:
+12px, 16px, 20px, 24px;
+
+/*extends*/
+%btn-general{
+    background-color: rgb(7, 58, 116);
+    color: rgb(204, 245, 255);
+    border: 1px rgb(229, 227, 238) solid;
+    border-radius: 20px;
+}
+%btn-hover{
+    background-color: rgb(204, 234, 255);
+    color: rgb(7, 58, 116);
+    border: 1px rgb(113, 0, 148) solid;
+}
+
+/*mixin*/
+@mixin flex($flex, $justify, $align, $direction, $wrap){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+}
