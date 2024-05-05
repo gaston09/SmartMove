@@ -62,11 +62,11 @@
             background-color: $bg-color;
             a{
                 text-decoration: none;
-                font-size: nth($fsize,4);
+                font-size: nth($fsize,3);
                 font-weight: 600;
-                padding: 3px;
-                padding-left: 10px;
-                padding-right: 10px;
+                padding: 6px;
+                padding-left: 14px;
+                padding-right: 14px;
                 @extend %btn-general;
                     &:hover{
                         @extend %btn-hover

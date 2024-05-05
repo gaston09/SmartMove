@@ -153,7 +153,6 @@
     
         footer ul {
             flex-direction: row;
-            text-decoration: underline 1px rgb(46, 49, 211) solid;
         }
     
         footer ul a {
@@ -340,6 +339,9 @@
             padding: 0;
         }
     /**-------SERVICIOS-------*/
+    .serviciosGeneral section div .imglink a{
+        text-align: center;
+    }
     /**-------PRODUCTOS-------*/
     /**------CONTACTO--------*/
     .contactame section form .select{
