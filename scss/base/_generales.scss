@@ -47,6 +47,7 @@ $fsize:
     color: rgb(204, 245, 255);
     border: 1px rgb(229, 227, 238) solid;
     border-radius: 20px;
+    transition-duration: 0.3s;
 }
 %btn-hover{
     background-color: rgb(204, 234, 255);

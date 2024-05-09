@@ -33,7 +33,8 @@ header nav div ul li .botonNav {
   background-color: #073a74;
   color: #ccf5ff;
   border: 1px #e5e3ee solid;
-  border-radius: 20px; }
+  border-radius: 20px;
+  transition-duration: 0.3s; }
 
 .hero h2:hover, .secundaria .justificacion .linkServicios a:hover, .serviciosGeneral section div .imglink a:hover, .contactame section form .botonForm input:hover {
   background-color: #cceaff;
@@ -123,18 +124,20 @@ header {
     background-color: rgba(2, 2, 2, 0.637);
     padding: 7px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
     flex-wrap: nowrap; }
     .secundaria .galeria img {
+      height: 180px;
+      width: 270px;
       margin-bottom: 10px;
       border: 1px black solid; }
 
 .mainAbout {
   background-image: url(../img/back.jpg);
-  background-color: bisque;
-  display: flex; }
+  display: flex;
+  height: auto; }
   .mainAbout section div {
     display: flex;
     justify-content: space-around;
@@ -264,6 +267,15 @@ header {
     padding: 10px;
     width: auto;
     text-align: center; }
+  .productos p {
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    color: white; }
+  .productos span {
+    color: #90a1ec;
+    font-weight: 600; }
   .productos div h3 {
     color: #0c52a1;
     font-size: 24px;
@@ -287,7 +299,13 @@ header {
       text-align: center;
       justify-content: center;
       margin: 15px;
-      border: 1px solid #010635; }
+      border: 1px solid #010635;
+      transition: 1s; }
+      .productos div section div:hover {
+        transform: scale(1.04);
+        box-shadow: 0px 0px 10px 3px rgba(162, 187, 237, 0.52);
+        -webkit-box-shadow: 0px 0px 10px 3px rgba(162, 187, 237, 0.52);
+        -moz-box-shadow: 0px 0px 10px 3px rgba(162, 187, 237, 0.52); }
       .productos div section div p {
         text-align: center;
         font-size: 16px;
@@ -324,9 +342,9 @@ header {
       color: white;
       display: flex;
       justify-content: center;
-      padding: 8px;
-      padding-left: 12px;
-      padding-right: 12px; }
+      padding: 12px;
+      padding-left: 15px;
+      padding-right: 15px; }
       .productos .gridPagos .parrafo1 p {
         font-size: 20px; }
     .productos .gridPagos .tarjetas {
@@ -374,6 +392,9 @@ header {
       padding-right: 12px; }
       .productos .gridPagos .parrafo3 p {
         font-size: 20px; }
+      .productos .gridPagos .parrafo3 .animate__pulse {
+        animation-duration: 2.5s;
+        animation-iteration-count: infinite; }
 
 .contactame {
   background-image: url(../img/back.jpg); }
@@ -510,6 +531,8 @@ footer {
     padding-right: 40px;
     padding-top: 50px;
     padding-bottom: 30px; }
+  .secundaria.justificacion p {
+    font-size: 20px; }
   .secundaria .justificacion .linkServicios {
     margin-top: 10px; }
   .secundaria .justificacion .linkServicios a {
@@ -556,8 +579,8 @@ footer {
     align-items: center;
     justify-content: center; } }
 
-/*-------------------- 748 -----------------------*/
-@media screen and (max-width: 748px) {
+/*-------------------- 760 -----------------------*/
+@media screen and (max-width: 760px) {
   /**-------INDEX-----------*/
   .hero img {
     width: 60%; }
@@ -570,8 +593,12 @@ footer {
     font-size: 25px; }
   .hero a {
     font-size: 16px; }
+  .secundaria .justificacion p {
+    font-size: 20px; }
   .secundaria .justificacion .linkServicios a {
     font-size: 18px; }
+  .secundaria .galeria img {
+    height: 130px; }
   footer img {
     height: 35px;
     width: 35px; }
@@ -613,6 +640,8 @@ footer {
   .secundaria .justificacion .linkServicios a {
     padding: 12px;
     font-size: 18px; }
+  .secundaria .galeria img {
+    height: 110px; }
   /**-----ABOUT ME----------*/
   /**-------SERVICIOS-------*/
   .serviciosGeneral section div div p {
@@ -661,14 +690,11 @@ footer {
     height: 118px; }
   /**-------PRODUCTOS-------*/
   .gridPagos .parrafo1 {
-    text-align: center;
-    font-size: 15px; }
+    text-align: center; }
   .gridPagos .parrafo2 {
-    text-align: center;
-    font-size: 15px; }
+    text-align: center; }
   .gridPagos .parrafo3 {
-    text-align: center;
-    font-size: 15px; }
+    text-align: center; }
   /**------CONTACTO--------*/
   .contactame .contactoGeneral section div div img {
     width: 290px;
@@ -687,6 +713,8 @@ footer {
   .hero h2 {
     font-size: 14px;
     font-weight: 700; }
+  .secundaria .justificacion p {
+    font-size: 16px; }
   .secundaria .justificacion .linkServicios a {
     font-size: 11px; }
   .secundaria .galeria {

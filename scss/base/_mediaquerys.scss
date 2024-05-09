@@ -47,7 +47,9 @@
             padding-top: 50px;
             padding-bottom: 30px;
         }
-    
+        .secundaria.justificacion p{
+            font-size: nth($fsize,3)
+        }
         .secundaria .justificacion .linkServicios {
             margin-top: 10px;
         }
@@ -119,8 +121,8 @@
         }
     }
     
-    /*-------------------- 748 -----------------------*/
-    @media screen and (max-width: 748px) {
+    /*-------------------- 760 -----------------------*/
+    @media screen and (max-width: 760px) {
     
         /**-------INDEX-----------*/
         .hero img {
@@ -141,9 +143,14 @@
         .hero a {
             font-size: 16px;
         }
-    
+        .secundaria .justificacion p{
+            font-size: nth($fsize,3)
+        }
         .secundaria .justificacion .linkServicios a {
             font-size: 18px;
+        }
+        .secundaria .galeria img{
+            height: 130px;
         }
     
         footer img {
@@ -206,6 +213,9 @@
             padding: 12px;
             font-size: 18px;
         }
+    .secundaria .galeria img{
+        height: 110px;
+    }
     
     /**-----ABOUT ME----------*/
     /**-------SERVICIOS-------*/
@@ -280,16 +290,13 @@
     /**-------PRODUCTOS-------*/
         .gridPagos .parrafo1{    
             text-align: center;
-            font-size: 15px;
         }
         .gridPagos .parrafo2{    
             text-align: center;
-            font-size: 15px;
         }
         .gridPagos .parrafo3{    
             text-align: center;
-            font-size: 15px;
-    }
+        }
     /**------CONTACTO--------*/
         .contactame .contactoGeneral section div div img {
             width: 290px;
@@ -319,7 +326,9 @@
             font-size: 14px;
             font-weight: 700;
         }
-    
+        .secundaria .justificacion p{
+            font-size: nth($fsize,2)
+    }
     .secundaria .justificacion .linkServicios a {
             font-size: 11px;
         }

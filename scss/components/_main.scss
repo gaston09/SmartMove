@@ -19,7 +19,9 @@
     }
     a{
         text-decoration: none;
+        
     }
+
         h2{
             text-align: center;
             align-items: center;
@@ -77,8 +79,10 @@
     .galeria{
         background-color: $bg-color;
         padding: 7px;
-        @include flex (flex, center, center, column, nowrap);
+        @include flex (flex, space-around, center, column, nowrap);
         img{
+            height: 180px;
+            width: 270px;
             margin-bottom: 10px;
             border: 1px black solid;
         }
