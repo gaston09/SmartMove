@@ -31,6 +31,12 @@ header nav div ul li .botonNav {
     }
 }
 
+header nav div ul li .boton-down{
+    &:hover {
+        background-color: rgba(64, 64, 219, 0.692);
+    }
+}
+
 /*Variables*/
 $bg-color: rgba(2, 2, 2, 0.637);
 $color-secundario:black;

@@ -5,7 +5,7 @@
     background-size: cover;
     height: auto;
     width: auto;
-    @include flex(flex, center, center, column, nowrap)
+    @include flex(flex, center, center, column, nowrap);
 
     img{
         margin-top: 25px;

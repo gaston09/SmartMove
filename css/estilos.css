@@ -26,6 +26,9 @@ header nav div ul li .botonNav {
     font-weight: 400;
     color: white; }
 
+header nav div ul li .boton-down:hover {
+  background-color: rgba(64, 64, 219, 0.692); }
+
 /*Variables*/
 /*Listas*/
 /*extends*/
@@ -274,7 +277,7 @@ header {
     font-size: 22px;
     color: white; }
   .productos span {
-    color: #90a1ec;
+    color: #939ecc;
     font-weight: 600; }
   .productos div h3 {
     color: #0c52a1;
