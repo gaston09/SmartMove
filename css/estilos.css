@@ -350,6 +350,9 @@ header {
       padding-right: 15px; }
       .productos .gridPagos .parrafo1 p {
         font-size: 20px; }
+        .productos .gridPagos .parrafo1 p span {
+          color: blueviolet;
+          font-weight: 500; }
     .productos .gridPagos .tarjetas {
       display: flex;
       flex-direction: row;

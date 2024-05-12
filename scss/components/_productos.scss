@@ -84,6 +84,7 @@
         .h4Importados{
             margin-top: 25px;
         }
+        
     }
 
     .gridPagos{
@@ -104,6 +105,11 @@
             padding-right: 15px;
             p{
                 font-size: nth($fsize, 3);
+                span{
+                    color: blueviolet;
+                    font-weight: 500;
+                    
+                }
             }
         }
         .tarjetas{
