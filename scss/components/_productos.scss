@@ -26,12 +26,12 @@
         color:white;
     }
     span{
-        color: rgb(147, 158, 204);
+        color: rgb(236, 179, 93);
         font-weight: 600;
     }
     div{
         h3{
-            color: rgb(12, 82, 161);;
+            color: rgb(216, 213, 66);
             font-size: nth($fsize, 4 );
             margin-bottom: 20px;
             margin-top: 15px;
@@ -76,7 +76,7 @@
             margin-top: 40px;
         }
         h4{
-            color:rgb(14, 102, 202);
+            color:rgb(189, 187, 58);
             font-size: nth($fsize, 4);
             margin-bottom: 25px;
             @include flex(flex, center, center, column, nowrap)

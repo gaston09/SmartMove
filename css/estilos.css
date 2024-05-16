@@ -41,7 +41,7 @@ header nav div ul li .boton-down:hover {
 
 .hero h2:hover, .secundaria .justificacion .linkServicios a:hover, .serviciosGeneral section div .imglink a:hover, .contactame section form .botonForm input:hover {
   background-color: #cceaff;
-  color: #073a74;
+  color: black;
   border: 1px #710094 solid; }
 
 /*mixin*/
@@ -221,7 +221,7 @@ header {
         flex-direction: column;
         border: none; }
         .serviciosGeneral section div div h2 {
-          color: #073a74;
+          color: #dbd941;
           display: flex;
           justify-content: center;
           margin: auto;
@@ -265,7 +265,7 @@ header {
     flex-wrap: nowrap;
     text-align: center; }
   .productos h2 {
-    color: #073a74;
+    color: #dbd941;
     background-color: rgba(2, 2, 2, 0.637);
     padding: 10px;
     width: auto;
@@ -277,10 +277,10 @@ header {
     font-size: 22px;
     color: white; }
   .productos span {
-    color: #939ecc;
+    color: #ecb35d;
     font-weight: 600; }
   .productos div h3 {
-    color: #0c52a1;
+    color: #d8d542;
     font-size: 24px;
     margin-bottom: 20px;
     margin-top: 15px;
@@ -322,7 +322,7 @@ header {
   .productos div .suplementos {
     margin-top: 40px; }
   .productos div h4 {
-    color: #0e66ca;
+    color: #bdbb3a;
     font-size: 24px;
     margin-bottom: 25px;
     display: flex;
@@ -488,14 +488,14 @@ footer {
     margin: 6px; }
     footer ul li a {
       text-decoration: none;
-      color: #5e61f0;
+      color: #dbd942;
       display: flex;
       justify-content: center;
       text-align: center; }
   footer div {
     display: flex; }
     footer div a i {
-      color: #5e61f0;
+      color: #dbd941;
       font-size: 25px;
       margin: 6px;
       margin-left: 3px; }
